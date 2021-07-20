@@ -16,6 +16,8 @@
     --main-heading: hsl(0, 0%, 100%);
     --main-paragraph: hsla(0, 0%, 100%, 0.75);
     --stat-headning: hsla(0, 0%, 100%, 0.6);
+
+    font-size: 15px;
 }
 
 * {
@@ -29,21 +31,21 @@ body {
     background-color: var(--dark-blue);
     width: 100vw;
     align-items: center;
-    overflow: hidden;
 
 }
 h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    font-size: 2rem;
-    margin-top: 7vh;
+    font-size: 3rem;
+    margin-top: 10vh;
     margin-bottom: 2vh;
     color: var(--main-heading)
 }
 p {
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 15px;
+    
     color: var(--main-paragraph);
+    font-size: 1.4rem;
     margin-top: 5vh;
 }
 
@@ -61,8 +63,8 @@ p {
 }
 .card-body{
     display: flex; 
-    justify-content: center;
-    align-items: center;
+  
+    
 }
 .card-text-box{
     width: 50%;
@@ -80,26 +82,27 @@ p {
     display: flex;
     justify-content: space-between;
     margin-right: 10vw;
-    margin-top: 5vh;
+    margin-top: 10vh;
     margin-bottom: 5vh;
 }
 .card-text-box .stats-container h2{
     font-family: 'Lexend Deca', sans-serif;
     color: var(--main-heading);
-    font-size: 1.5rem;
-    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 1vh;
 }
+
 .card-text-box .stats-container h3{
     color:var(--main-paragraph);
     font-family: 'Inter';
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: 400;
     text-transform: uppercase;
 }
 
 .card-img-box{
     width: 50%;
-    height: 100%;
+    height: auto;
     background-color: var(--violet);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
