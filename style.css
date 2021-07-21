@@ -37,16 +37,10 @@ h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 3rem;
-    margin-top: 10vh;
-    margin-bottom: 2vh;
-    color: var(--main-heading)
 }
 p {
     font-family: 'Lexend Deca', sans-serif;
-    
-    color: var(--main-paragraph);
-    font-size: 1.4rem;
-    margin-top: 5vh;
+    font-size: 1rem;
 }
 
 .card{
@@ -78,7 +72,16 @@ p {
 .card-text-box span{
     color: var(--violet)
 }
+.card-text-box h1{
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+    color: var(--main-heading)
+}
 
+.card-text-box p{
+    color: var(--main-paragraph);
+    margin-top: 5vh;
+}
 .card-text-box .stats-container{
     display: flex;
     justify-content: space-between;
